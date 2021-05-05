@@ -18,7 +18,7 @@ pipeline:
     - time
     - number
   - name: "SpacyNLP"
-    model: "en_core_web_md"
+    model: "en_core_web_sm"
   - name: "SpacyEntityExtractor"
     dimensions: ["PERSON"]
 
